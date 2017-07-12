@@ -1,0 +1,166 @@
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mvc.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@491666ad: startup date [Thu Jul 06 16:03:38 CST 2017]; root of context hierarchy
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7b324585] to prepare test instance [com.hand.service.impl.UserServiceImplTest@2e11485]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hand.service.impl.UserServiceImplTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hand.service.UserService com.hand.service.impl.UserServiceImplTest.userService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hand.service.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hand.service.UserService com.hand.service.impl.UserServiceImplTest.userService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hand.service.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 25 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hand.service.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 27 more
+Closing org.springframework.context.support.GenericApplicationContext@491666ad: startup date [Thu Jul 06 16:03:38 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mvc.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@491666ad: startup date [Thu Jul 06 16:04:00 CST 2017]; root of context hierarchy
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7b324585] to prepare test instance [com.hand.service.impl.UserServiceImplTest@2e11485]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.hand.service.impl.UserServiceImplTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hand.service.UserService com.hand.service.impl.UserServiceImplTest.userService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hand.service.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.hand.service.UserService com.hand.service.impl.UserServiceImplTest.userService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hand.service.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 25 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.hand.service.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 27 more
+Closing org.springframework.context.support.GenericApplicationContext@491666ad: startup date [Thu Jul 06 16:04:00 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@491666ad: startup date [Thu Jul 06 16:04:51 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@491666ad: startup date [Thu Jul 06 16:04:51 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:06:09 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:06:09 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:30:05 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:30:05 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:32:25 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:32:25 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:33:34 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:33:34 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:34:00 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:34:00 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:49:31 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:49:31 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:55:00 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:55:00 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:56:10 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:56:10 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:59:10 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:59:10 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:59:53 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 16:59:53 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 17:00:38 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 17:00:38 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 17:03:33 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 17:03:33 CST 2017]; root of context hierarchy
+Loading XML bean definitions from URL [file:/D:/Work/projects/ssmwk/target/classes/spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 17:12:43 CST 2017]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2cb4c3ab: startup date [Thu Jul 06 17:12:43 CST 2017]; root of context hierarchy

@@ -1,0 +1,40 @@
+.bg_red{
+    background-color:#ff0000;
+}
+.bg_orange{
+    background-color:#FF6600;
+}
+.bg_yellow{
+    background-color:#ffff00;
+}
+.bg_green{
+    background-color:#34BC9D;
+}
+.bg_blue{
+    background-color:#0299cb;
+}
+.bg_violet{
+    background-color:#8000ff;
+}
+.bg_black{
+    background-color:#000000;
+}
+.bg_white{
+    background-color:#ffffff;
+}
+.bg_gray{
+    background-color:#c0c0c0;
+}
+.menuBlueChoose{
+    background-color: #0289ba;
+    color:white;
+}
+.menuBlue{
+    background-color: #0299cb;
+}
+.menuBlue:hover{
+    background-color: #0289ba;
+}
+.mouse_pointer{
+    cursor: pointer;
+}
